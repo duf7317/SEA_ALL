@@ -584,7 +584,7 @@ namespace CoFAS.NEW.MES.POP
                                 data2 = 0;
                             };
                             double 미포장수량 = data1 - data2;
-                            MessageBox.Show("양품 : " + data1.ToString() + "포장 수량 : " + pDataTable10.Rows[0]["COLUMN1"].ToString() +"미포장 수량 : "+ 미포장수량.ToString());
+                            _총미포장.Text = 미포장수량.ToString();
 
                         }
                     }
@@ -1262,8 +1262,7 @@ namespace CoFAS.NEW.MES.POP
                 TimeSpan difference = endTime - startTime;
                 string sql =$@"UPDATE [dbo].[WORK_PERFORMANCE]
                                   SET 
-                                      [QTY_COMPLETE] = '{comQty}'
-                                     ,[WORK_TIME]    = '{difference.TotalSeconds}'
+                                      [WORK_TIME]    = '{difference.TotalSeconds}'
                                      ,[END_TIME]     = '{_종료.DateTime.ToString("yyyy-MM-dd HH:mm:ss")}'
                                 WHERE ID = '{_p실적}'";
                 DataTable _DataTable = new CoreBusiness().SELECT(sql);
@@ -1545,7 +1544,6 @@ namespace CoFAS.NEW.MES.POP
 
                 string sql =$@"UPDATE [dbo].[WORK_PERFORMANCE]
                                   SET 
-                                      [QTY_COMPLETE] = '{0}'
                                      ,[WORK_TIME]    = '{difference.TotalSeconds}'
                                      ,[END_TIME]     = '{_종료.DateTime.ToString("yyyy-MM-dd HH:mm:ss")}'
                                 WHERE ID = '{_p실적}'";

@@ -223,7 +223,11 @@ namespace CoFAS.NEW.MES.POP
                             print(라벨);
                             
                         }
-
+                        string sql = $@"UPDATE [dbo].[WORK_PERFORMANCE]
+                                  SET 
+                                      [QTY_COMPLETE] = '{0}'
+                                WHERE ID = '{_p실적}'";
+                        DataTable _DataTable = new CoreBusiness().SELECT(sql);
                     }
                 }
             }

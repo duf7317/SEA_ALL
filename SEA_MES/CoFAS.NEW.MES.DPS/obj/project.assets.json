@@ -5,10 +5,14 @@
       "M2Mqtt/4.3.0": {
         "type": "package",
         "compile": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -23,10 +27,14 @@
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Opc.UaFx.Client/2.12.0": {
@@ -43,19 +51,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.6": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -64,10 +80,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -82,10 +102,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -95,10 +119,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.3": {
@@ -107,10 +135,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.5.3": {
@@ -148,10 +180,14 @@
       "M2Mqtt/4.3.0": {
         "type": "package",
         "compile": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -166,10 +202,14 @@
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Opc.UaFx.Client/2.12.0": {
@@ -186,19 +226,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.6": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -207,10 +255,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -225,10 +277,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -238,10 +294,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.3": {
@@ -250,10 +310,189 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.IdentityModel",
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ServiceModel.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ServiceModel.Primitives.dll": {}
+        }
+      },
+      "CoFAS.NEW.MES.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
+        },
+        "compile": {
+          "bin/placeholder/CoFAS.NEW.MES.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoFAS.NEW.MES.Core.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "M2Mqtt/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Opc.UaFx.Client/2.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.BouncyCastle": "1.8.6",
+          "System.Memory": "4.5.4",
+          "System.ServiceModel.Primitives": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System.Management",
+          "System.Net.Http",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.5.3": {
@@ -291,10 +530,14 @@
       "M2Mqtt/4.3.0": {
         "type": "package",
         "compile": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -309,10 +552,14 @@
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Opc.UaFx.Client/2.12.0": {
@@ -329,19 +576,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.6": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -350,10 +605,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -368,10 +627,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -381,10 +644,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.3": {
@@ -393,10 +660,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.5.3": {
@@ -434,10 +705,14 @@
       "M2Mqtt/4.3.0": {
         "type": "package",
         "compile": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/net45/M2Mqtt.Net.dll": {}
+          "lib/net45/M2Mqtt.Net.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -452,10 +727,14 @@
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Opc.UaFx.Client/2.12.0": {
@@ -472,19 +751,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net471/Opc.UaFx.Client.dll": {}
+          "lib/net471/Opc.UaFx.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Portable.BouncyCastle/1.8.6": {
         "type": "package",
         "compile": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net40/BouncyCastle.Crypto.dll": {}
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -493,10 +780,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -511,10 +802,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -524,10 +819,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.3": {
@@ -536,10 +835,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ServiceModel.Primitives/4.5.3": {
@@ -891,20 +1194,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\winni\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
       "projectName": "CoFAS.NEW.MES.DPS",
-      "projectPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
-      "packagesPath": "C:\\Users\\winni\\.nuget\\packages\\",
-      "outputPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\winni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -917,11 +1225,16 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj": {
-              "projectPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj"
+            "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -940,6 +1253,9 @@
     },
     "runtimes": {
       "win": {
+        "#import": []
+      },
+      "win-arm64": {
         "#import": []
       },
       "win-x64": {

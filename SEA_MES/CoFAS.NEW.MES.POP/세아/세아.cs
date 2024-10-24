@@ -531,7 +531,13 @@ namespace CoFAS.NEW.MES.POP
   　　　　　　　　　　 and ID = '{_p실적}'";
 
                 DataTable pDataTable4 = new CoreBusiness().SELECT(sql);
+                sql = $@"SELECT(
+                            SELECT ISNULL(SUM(P_QTY),0)  AS 포장수량
+                                FROM [dbo].[PRODUCT_BARCODE] 
+                                WHERE 1=1 AND RESOURCE_NO = '{_p품번}'
+                                AND LOT_NO = '{_pLOT}')";
 
+                DataTable pDataTable10 = new CoreBusiness().SELECT(sql);
                 if (pDataTable4.Rows.Count != 0)
                 {
 
@@ -545,6 +551,12 @@ namespace CoFAS.NEW.MES.POP
 
                     DataTable pDataTable5 = new MY_DBClass().SELECT_DataTable(sql1);
 
+                    sql1 = $@"SELECT 
+                                    SUM(ifnull(WORK_OKCNT,0))     as WORK_OKCNT
+                               FROM work_performance
+                              where RESOURCE_NO = '{_p품번}' AND LOT_NO ='{_pLOT}'";
+
+                    DataTable pDataTable11 = new MY_DBClass().SELECT_DataTable(sql1);
                     if (pDataTable5.Rows.Count != 0)
                     {
                         _lbl_총생산량.Text = pDataTable5.Rows[0]["all_Qty"].ToString();
@@ -552,7 +564,22 @@ namespace CoFAS.NEW.MES.POP
                         _lbl_예열타.Text = pDataTable5.Rows[0]["WORK_WARMUPCNT"].ToString();
                         _lbl_불량.Text = pDataTable5.Rows[0]["WORK_ERRCOUNT"].ToString();
                         _미포장수량.Text = _lbl_양품.Text;
+                        if (pDataTable10.Rows.Count != 0 && pDataTable11.Rows.Count != 0) 
+                        {
+                            double data1 = 0;
+                            double data2 = 0;
+                            if (!double.TryParse(pDataTable11.Rows[0]["WORK_OKCNT"].ToString(), out data1)) 
+                            {
+                                data1 = 0;
+                            };
+                            if (!double.TryParse(pDataTable10.Rows[0]["COLUMN1"].ToString(), out data2))
+                            {
+                                data2 = 0;
+                            };
+                            double 미포장수량 = data1 - data2;
+                            MessageBox.Show("양품 : " + data1.ToString() + "포장 수량 : " + pDataTable10.Rows[0]["COLUMN1"].ToString() +"미포장 수량 : "+ 미포장수량.ToString());
 
+                        }
                     }
                     else
                     {

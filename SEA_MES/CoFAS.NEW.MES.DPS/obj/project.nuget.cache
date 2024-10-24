@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "kvBz6XJDDTTijoqKmq7zajpEdYeuqbojYmdJyQGXnxoAlvHyJro+FwtRRO1uNsL6BM+d6fsqYE3ze24a6P4/LA==",
+  "dgSpecHash": "zkrLRyV3OCg=",
   "success": true,
-  "projectFilePath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.DPS\\CoFAS.NEW.MES.DPS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\winni\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\opc.uafx.client\\2.12.0\\opc.uafx.client.2.12.0.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\portable.bouncycastle\\1.8.6\\portable.bouncycastle.1.8.6.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\system.servicemodel.primitives\\4.5.3\\system.servicemodel.primitives.4.5.3.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\opc.uafx.client\\2.12.0\\opc.uafx.client.2.12.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\portable.bouncycastle\\1.8.6\\portable.bouncycastle.1.8.6.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.servicemodel.primitives\\4.5.3\\system.servicemodel.primitives.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

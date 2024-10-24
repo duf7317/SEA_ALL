@@ -81,6 +81,46 @@
         }
       }
     },
+    ".NETFramework,Version=v4.6.1/win-arm64": {
+      "FontAwesome.Sharp/6.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Windows.Forms",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FontAwesome.Sharp.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {}
+        }
+      },
+      "CoFAS.NEW.MES.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001"
+        },
+        "compile": {
+          "bin/placeholder/CoFAS.NEW.MES.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoFAS.NEW.MES.Core.dll": {}
+        }
+      }
+    },
     ".NETFramework,Version=v4.6.1/win-x64": {
       "FontAwesome.Sharp/6.1.1": {
         "type": "package",
@@ -207,20 +247,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\winni\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
       "projectName": "CoFAS.NEW.MES",
-      "projectPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
-      "packagesPath": "C:\\Users\\winni\\.nuget\\packages\\",
-      "outputPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\winni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -233,11 +278,16 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj": {
-              "projectPath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj"
+            "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -252,6 +302,9 @@
     },
     "runtimes": {
       "win": {
+        "#import": []
+      },
+      "win-arm64": {
         "#import": []
       },
       "win-x64": {

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K8VOKkkcDrhaNzgiys6Yg9ftQBcskVoolMD83TOqf0ong2xIPNTi6qGSr5Jb6aCSO7YTaEbO57iEDlR1xMPqhg==",
+  "dgSpecHash": "u8OWcIMepqs=",
   "success": true,
-  "projectFilePath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES\\CoFAS.NEW.MES.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\winni\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
-    "C:\\Users\\winni\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
   ],
   "logs": []
 }

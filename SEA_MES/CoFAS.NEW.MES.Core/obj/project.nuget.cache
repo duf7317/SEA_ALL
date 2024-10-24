@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Rnnlfihkg2FCQN8Kof8wshfypTjSmCc2LxpNz/n3rfpB6WNM26cfBbkAMqhf/RUBYmNbNSigE2vUQt8GbJqjIQ==",
+  "dgSpecHash": "Lfk8rJj0WbM=",
   "success": true,
-  "projectFilePath": "E:\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\HSYWROK\\SOURCE\\SEA_ALL\\SEA_MES\\CoFAS.NEW.MES.Core\\CoFAS.NEW.MES.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\winni\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
   ],
   "logs": []
 }

@@ -47,6 +47,8 @@ namespace CoFAS.NEW.MES.POP
             this.fpSub3 = new CoFAS.NEW.MES.Core.xFpSpread();
             this.fpSub3_Sheet1 = new FarPoint.Win.Spread.SheetView();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this._교대조 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -66,7 +68,7 @@ namespace CoFAS.NEW.MES.POP
             this._포장수량 = new System.Windows.Forms.Label();
             this._간판발행수 = new System.Windows.Forms.Label();
             this._작업코드 = new System.Windows.Forms.Label();
-            this._교대조 = new System.Windows.Forms.Label();
+            this._총미포장 = new System.Windows.Forms.Label();
             this._금형 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this._상태 = new System.Windows.Forms.Label();
@@ -94,7 +96,7 @@ namespace CoFAS.NEW.MES.POP
             this._lbl_양품 = new System.Windows.Forms.Label();
             this._lbl_예열타 = new System.Windows.Forms.Label();
             this._lbl_불량 = new System.Windows.Forms.Label();
-            this._lbl_간편발행 = new System.Windows.Forms.Label();
+            this._lbl_간판발행 = new System.Windows.Forms.Label();
             this.txt_작업인원 = new CoFAS.NEW.MES.Core.ucTextEdit();
             this.fpSub2 = new CoFAS.NEW.MES.Core.xFpSpread();
             this.sheetView1 = new FarPoint.Win.Spread.SheetView();
@@ -370,6 +372,8 @@ namespace CoFAS.NEW.MES.POP
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel6.Controls.Add(this._교대조, 0, 9);
+            this.tableLayoutPanel6.Controls.Add(this.label25, 0, 9);
             this.tableLayoutPanel6.Controls.Add(this.label3, 0, 4);
             this.tableLayoutPanel6.Controls.Add(this.label4, 0, 5);
             this.tableLayoutPanel6.Controls.Add(this.label5, 0, 6);
@@ -389,7 +393,7 @@ namespace CoFAS.NEW.MES.POP
             this.tableLayoutPanel6.Controls.Add(this._포장수량, 1, 6);
             this.tableLayoutPanel6.Controls.Add(this._간판발행수, 1, 7);
             this.tableLayoutPanel6.Controls.Add(this._작업코드, 1, 8);
-            this.tableLayoutPanel6.Controls.Add(this._교대조, 3, 7);
+            this.tableLayoutPanel6.Controls.Add(this._총미포장, 3, 7);
             this.tableLayoutPanel6.Controls.Add(this._금형, 3, 8);
             this.tableLayoutPanel6.Controls.Add(this.label28, 3, 0);
             this.tableLayoutPanel6.Controls.Add(this._상태, 3, 1);
@@ -423,6 +427,33 @@ namespace CoFAS.NEW.MES.POP
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel6.Size = new System.Drawing.Size(579, 294);
             this.tableLayoutPanel6.TabIndex = 1;
+            // 
+            // _교대조
+            // 
+            this._교대조.AutoSize = true;
+            this._교대조.BackColor = System.Drawing.Color.White;
+            this._교대조.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._교대조.Location = new System.Drawing.Point(121, 267);
+            this._교대조.Margin = new System.Windows.Forms.Padding(5);
+            this._교대조.Name = "_교대조";
+            this._교대조.Size = new System.Drawing.Size(162, 21);
+            this._교대조.TabIndex = 20;
+            this._교대조.Text = "-";
+            this._교대조.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(142)))), ((int)(((byte)(172)))));
+            this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(1, 262);
+            this.label25.Margin = new System.Windows.Forms.Padding(0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(114, 31);
+            this.label25.TabIndex = 19;
+            this.label25.Text = "교대조";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -519,7 +550,7 @@ namespace CoFAS.NEW.MES.POP
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(114, 28);
             this.label9.TabIndex = 0;
-            this.label9.Text = "교대조";
+            this.label9.Text = "총 미포장 수량";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -662,7 +693,7 @@ namespace CoFAS.NEW.MES.POP
             this._간판발행수.Name = "_간판발행수";
             this._간판발행수.Size = new System.Drawing.Size(166, 28);
             this._간판발행수.TabIndex = 10;
-            this._간판발행수.Text = "-";
+            this._간판발행수.Text = "0";
             this._간판발행수.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // _작업코드
@@ -678,18 +709,18 @@ namespace CoFAS.NEW.MES.POP
             this._작업코드.Text = "-";
             this._작업코드.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // _교대조
+            // _총미포장
             // 
-            this._교대조.AutoSize = true;
-            this._교대조.BackColor = System.Drawing.Color.White;
-            this._교대조.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._교대조.Location = new System.Drawing.Point(409, 209);
-            this._교대조.Margin = new System.Windows.Forms.Padding(5);
-            this._교대조.Name = "_교대조";
-            this._교대조.Size = new System.Drawing.Size(164, 18);
-            this._교대조.TabIndex = 13;
-            this._교대조.Text = "-";
-            this._교대조.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this._총미포장.AutoSize = true;
+            this._총미포장.BackColor = System.Drawing.Color.White;
+            this._총미포장.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._총미포장.Location = new System.Drawing.Point(409, 209);
+            this._총미포장.Margin = new System.Windows.Forms.Padding(5);
+            this._총미포장.Name = "_총미포장";
+            this._총미포장.Size = new System.Drawing.Size(164, 18);
+            this._총미포장.TabIndex = 13;
+            this._총미포장.Text = "0";
+            this._총미포장.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // _금형
             // 
@@ -918,7 +949,7 @@ namespace CoFAS.NEW.MES.POP
             this.tableLayoutPanel7.Controls.Add(this._lbl_양품, 1, 1);
             this.tableLayoutPanel7.Controls.Add(this._lbl_예열타, 2, 1);
             this.tableLayoutPanel7.Controls.Add(this._lbl_불량, 3, 1);
-            this.tableLayoutPanel7.Controls.Add(this._lbl_간편발행, 5, 1);
+            this.tableLayoutPanel7.Controls.Add(this._lbl_간판발행, 5, 1);
             this.tableLayoutPanel7.Controls.Add(this.txt_작업인원, 4, 1);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 303);
@@ -1044,18 +1075,18 @@ namespace CoFAS.NEW.MES.POP
             this._lbl_불량.Text = "0";
             this._lbl_불량.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // _lbl_간편발행
+            // _lbl_간판발행
             // 
-            this._lbl_간편발행.AutoSize = true;
-            this._lbl_간편발행.BackColor = System.Drawing.Color.White;
-            this._lbl_간편발행.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._lbl_간편발행.Location = new System.Drawing.Point(485, 41);
-            this._lbl_간편발행.Margin = new System.Windows.Forms.Padding(3);
-            this._lbl_간편발행.Name = "_lbl_간편발행";
-            this._lbl_간편발행.Size = new System.Drawing.Size(89, 28);
-            this._lbl_간편발행.TabIndex = 11;
-            this._lbl_간편발행.Text = "0";
-            this._lbl_간편발행.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this._lbl_간판발행.AutoSize = true;
+            this._lbl_간판발행.BackColor = System.Drawing.Color.White;
+            this._lbl_간판발행.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._lbl_간판발행.Location = new System.Drawing.Point(485, 41);
+            this._lbl_간판발행.Margin = new System.Windows.Forms.Padding(3);
+            this._lbl_간판발행.Name = "_lbl_간판발행";
+            this._lbl_간판발행.Size = new System.Drawing.Size(89, 28);
+            this._lbl_간판발행.TabIndex = 11;
+            this._lbl_간판발행.Text = "0";
+            this._lbl_간판발행.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txt_작업인원
             // 
@@ -1077,7 +1108,6 @@ namespace CoFAS.NEW.MES.POP
             this.txt_작업인원.TextAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.txt_작업인원.ToolTipt = "";
             this.txt_작업인원.UseMaskAsDisplayFormat = false;
-          
             this.txt_작업인원.Click += new System.EventHandler(this.txt_작업인원_Click);
             // 
             // fpSub2
@@ -1481,7 +1511,7 @@ namespace CoFAS.NEW.MES.POP
         private System.Windows.Forms.Label _포장수량;
         private System.Windows.Forms.Label _간판발행수;
         private System.Windows.Forms.Label _작업코드;
-        private System.Windows.Forms.Label _교대조;
+        private System.Windows.Forms.Label _총미포장;
         private System.Windows.Forms.Label _금형;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.Label label15;
@@ -1494,7 +1524,7 @@ namespace CoFAS.NEW.MES.POP
         private System.Windows.Forms.Label _lbl_양품;
         private System.Windows.Forms.Label _lbl_예열타;
         private System.Windows.Forms.Label _lbl_불량;
-        private System.Windows.Forms.Label _lbl_간편발행;
+        private System.Windows.Forms.Label _lbl_간판발행;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.Button 스크랩이동;
         private System.Windows.Forms.Label label28;
@@ -1534,5 +1564,7 @@ namespace CoFAS.NEW.MES.POP
         private System.Windows.Forms.Label _용탕투입중량;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label _CAV;
+        private System.Windows.Forms.Label _교대조;
+        private System.Windows.Forms.Label label25;
     }
 }
